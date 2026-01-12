@@ -1,0 +1,917 @@
+<!-- DOCUMENT -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- META -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1200">
+  <title>Club Archive | BTTHS</title>
+
+  <!-- STYLES -->
+  <link rel="stylesheet" href="Design.css">
+</head>
+
+<body>
+  <!-- PAGE -->
+  <div class="page">
+
+    <!-- NAVIGATION -->
+    <div class="topnav">
+      <div class="logo">
+        <img src="images/triangle.png" alt="Triangle Logo">
+        <span class="brand">ClubArchive.com</span>
+      </div>
+
+      <nav class="menu">
+        <button data-page="home" class="active">Home</button>
+        <button data-page="about">About</button>
+        <button data-page="clubs">Clubs</button>
+        <button data-page="faqs">FAQs</button>
+      </nav>
+
+      <div class="search-wrap">
+        <form id="searchForm" class="search">
+          <input id="searchInput" type="text" placeholder="Search a club...">
+        </form>
+      </div>
+    </div>
+
+    <!-- HOME -->
+    <section id="home" class="section active">
+      <div class="home-container">
+        <h2 class="welcome">WELCOME TO</h2>
+        <h1 class="archive">CLUB ARCHIVE</h1>
+        <p class="subtitle">A collection ready to be explored!</p>
+      </div>
+
+      <div class="carousel-container">
+        <h3>Featured Clubs</h3>
+        <div class="carousel">
+          <button class="carousel-btn prev">&#10094;</button>
+
+          <div class="carousel-track">
+            <div class="club-card">
+              <img src="images/Sco.jpg">
+              <h4>SCO</h4>
+              <p>Per sevire sevire.</p>
+            </div>
+
+            <div class="club-card">
+              <img src="images/Serviam.jpg">
+              <h4>Serviam</h4>
+              <p>Service, leadership, compassion.</p>
+            </div>
+
+            <div class="club-card">
+              <img src="images/Theatre.jpg">
+              <h4>Theatre Guild</h4>
+              <p>Performance and production.</p>
+            </div>
+
+            <div class="club-card">
+              <img src="images/Clarion.jpg">
+              <h4>Clarion</h4>
+              <p>School journalism and writing.</p>
+            </div>
+          </div>
+
+          <button class="carousel-btn next">&#10095;</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="about-container">
+
+        <div class="about-left">
+          <h2 class="about-title">ABOUT US</h2>
+          <h3 class="about-subtitle">CLUB ARCHIVE</h3>
+          <p>
+            Club Archive is a website specifically designed to aid students who
+            struggle with navigating clubs found in Bacolod Tay Tung High School.
+          </p>
+          <p>
+            It aims to provide detailed information and help students locate
+            their desired clubs with minimal to no trouble.
+          </p>
+        </div>
+
+        <div class="about-right">
+          <h2 class="about-title">WHO ARE WE?</h2>
+          <h3 class="about-subtitle">THE DEVELOPERS</h3>
+          <p>
+            We are a team of Grade 10 programming students learning how to create
+            a website using HTML and CSS for our IPT.
+          </p>
+          <p>
+            This website is dedicated to students who struggle to find
+            information about school clubs.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CLUBS -->
+    <section id="clubs" class="section">
+      <h2 class="hero-title">All Clubs</h2>
+
+      <div class="clubs-grid">
+        <div class="club" data-page="aikido"><div class="avatar"><img src="images/Aikido.jpg"></div><h3>Aikido Club</h3></div>
+        <div class="club" data-page="armonia"><div class="avatar"><img src="images/Armonia.jpg"></div><h3>Armonia</h3></div>
+        <div class="club" data-page="booklovers"><div class="avatar"><img src="images/BLC.jpg"></div><h3>Book Lovers Club</h3></div>
+        <div class="club" data-page="chef"><div class="avatar"><img src="images/Chef.jpg"></div><h3>CHEFS</h3></div>
+        <div class="club" data-page="clarion"><div class="avatar"><img src="images/Clarion.jpg"></div><h3>Clarion</h3></div>
+        <div class="club" data-page="curiousmind"><div class="avatar"><img src="images/CMS.jpg"></div><h3>Curious Mind Society</h3></div>
+        <div class="club" data-page="dancesynergy"><div class="avatar"><img src="images/DS.jpg"></div><h3>Dance Synergy</h3></div>
+        <div class="club" data-page="eureka"><div class="avatar"><img src="images/Eureka.jpg"></div><h3>Eureka!</h3></div>
+        <div class="club" data-page="researchhive"><div class="avatar"><img src="images/Research.jpg"></div><h3>Research Hive</h3></div>
+        <div class="club" data-page="scobuddies"><div class="avatar"><img src="images/Buds.jpg"></div><h3>SCO Buddies</h3></div>
+        <div class="club" data-page="serviam"><div class="avatar"><img src="images/Serviam.jpg"></div><h3>Serviam Club</h3></div>
+        <div class="club" data-page="taytungvoices"><div class="avatar"><img src="images/Voices.jpg"></div><h3>Tay Tung Voices</h3></div>
+        <div class="club" data-page="theatre"><div class="avatar"><img src="images/Theatre.jpg"></div><h3>Theatre Guild</h3></div>
+        <div class="club" data-page="chamber"><div class="avatar"><img src="images/Chamber.jpg"></div><h3>Youth Chamber</h3></div>
+        <div class="club" data-page="leminscate"><div class="avatar"><img src="images/Lem.jpg"></div><h3>Leminscate</h3></div>
+        <div class="club" data-page="historybusters"><div class="avatar"><img src="images/HBC.jpg"></div><h3>History Busters</h3></div>
+        <div class="club" data-page="panorama"><div class="avatar"><img src="images/pano.jpg"></div><h3>Panorama</h3></div>
+        <div class="club" data-page="photography"><div class="avatar"><img src="images/photo.jpg"></div><h3>BTTHS Photography</h3></div>
+        <div class="club" data-page="pluma"><div class="avatar"><img src="images/pluma.jpg"></div><h3>Pluma</h3></div>
+        <div class="club" data-page="sco"><div class="avatar"><img src="images/Sco.jpg"></div><h3> SCO </h3></div>
+        <div class="club" data-page="yes"><div class="avatar"><img src="images/YES.jpg"></div><h3>BTTHS YES Club</h3></div>
+        <div class="club" data-page="youngdesigners"><div class="avatar"><img src="images/YDC.jpg"></div><h3>Young Designers Club</h3></div>
+      </div>
+    </section>
+
+    <!-- SEARCH RESULTS -->
+    <section id="search-results" class="section">
+      <h2 class="hero-title">Search Results</h2>
+      <p class="subtitle">
+        Results for "<span id="results-term"></span>"
+      </p>
+
+      <div class="clubs-grid" id="results-grid">
+      </div>
+    </section>
+
+    <!-- NO RESULTS -->
+    <section id="no-results" class="section">
+      <h2 class="hero-title">No Results</h2>
+      <p>No results for "<span id="search-term"></span>"</p>
+
+      <h4>Search Tips</h4>
+      <ul>
+        <li>Try using different keywords.</li>
+        <li>Check the spelling of your keywords.</li>
+      </ul>
+
+      <p>
+        Can't find what you're looking for?
+        <a href="mailto:club.archive@gmail.com">Contact us</a>
+      </p>
+    </section>
+
+    <!-- THEATRE -->
+    <section id="theatre" class="section">
+      <button class="theatre-back">← Back</button>
+
+      <div class="theatre-hero">
+        <h2 class="hero-title">THEATRE - Gelkoff A. Calmerin</h2>
+        <p class="lead">A club built for the arts</p>
+      </div>
+
+      <div class="theatre-content">
+        <div>
+          <h3>Album</h3>
+          <div class="album-grid">
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+          </div>
+        </div>
+
+        <div>
+          <h3>Rules</h3>
+          <ol class="rules-list">
+            <li>Show up on time</li>
+            <li>Attend all meetings</li>
+          </ol>
+        </div>
+
+        <div>
+          <h3>Programs</h3>
+          <ul class="programs-list">
+            <li>Arts and crafts</li>
+            <li>Acting</li>
+            <li>Tech work</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Aikido -->
+    <section id="aikido" class="section">
+      <button class="aikido">← Back</button>
+
+      <div class="aikido">
+        <h2 class="hero-title">合氣道 (Aikido Club)</h2>
+        <p class="lead">The Tay Tung Aikido Club is a martial arts club inspired by the philosophy of Harmony. Aikido directly translates as The Way of Harmony.</p>
+      </div>
+
+      <div class="aikdio-content">
+        <div>
+          <h3>Album</h3>
+          <div class="album-grid">
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+          </div>
+        </div>
+
+        <div>
+          <h3>Rules</h3>
+          <ol class="rules-list">
+            <li>Attend all scheduled training unless with a valid excuse</li>
+            <li>Always observe proper hygiene</li>
+            <li>Always clean and take care of Dojo (Training Hall), training equipement, and uniform.</li>
+            <li>Always respect the Sensei, classmates, and guests.</li>
+            <li>Extend training discipline beyond the Dojo.</li>
+            <li>Be responsible for personal development.</li>
+            <li>Help others develop themselves.</li>
+            <li>Always inform the Sensei of urgent and important matters. </li>
+          </ol>
+        </div>
+
+        <div>
+          <h3>Programs</h3>
+          <ul class="programs-list">
+            <li>Keiko - basic training</li>
+            <li>Kyu grade exams</li>
+            <li>Martial Arts Seminars – ex. Visayas Aikido Fellowship</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+        <!-- Armonia -->
+    <section id="armonia" class="section">
+      <button class="armonia">← Back</button>
+
+      <div class="armonia">
+        <h2 class="hero-title">ARMONIA</h2>
+        <p class="lead">The Armonia Music Club was established to provide dedicated student musicians a space to explore and enhance their musical talents beyond the classroom.</p>
+      </div>
+
+      <div class="armonia-content">
+        <div>
+          <h3>Album</h3>
+          <div class="album-grid">
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+          </div>
+        </div>
+
+        <div>
+          <h3>Rules</h3>
+          <ol class="rules-list">
+            <li>Attend all scheduled rehearsals, performances, and activities unless with valid excuse</li>
+            <li>Maintain and care for all instruments and music materials</li>
+            <li>Respect the conductor, adviser, peers, and guest mentors at all times</li>
+            <li>Come prepared and on time for all rehearsals and events</li>
+            <li>Extend discipline and professionalism beyond the music room.</li>
+            <li>Practice regularly and take responsibility for musical improvement</li>
+            <li>Support fellow members in their musical journey</li>
+            <li>Communicate promptly with the adviser regarding concerns and absences.</li>
+          </ol>
+        </div>
+
+        <div>
+          <h3>Programs</h3>
+          <ul class="programs-list">
+            <li>Music Creation and Arrangement</li>
+            <li>Rehearsals for New Repertoire</li>
+            <li>Performance Engagements</li>
+            <li>Musical Collaboration</li>
+            <li>Creative Development Workshops</li>
+
+          </ul>
+        </div>
+      </div>
+    </section>
+
+            <!-- SERVIAM -->
+    <section id="serviam" class="section">
+      <button class="serviam">← Back</button>
+
+      <div class="serviam">
+        <h2 class="hero-title">SERVIAM</h2>
+        <p class="lead">Serviam serves as the official student support arm of the Community Involvement and External Linkages Office (CIELO).</p>
+      </div>
+
+      <div class="serviam-content">
+        <div>
+          <h3>Album</h3>
+          <div class="album-grid">
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+          </div>
+        </div>
+
+        <div>
+          <h3>Rules</h3>
+          <ol class="rules-list">
+            <li>The club is open to all students from Grades 7–12 who submit a signed commitment form and attend the official orientation.</li>
+            <li>Members are expected to actively take part in all club activities, including planning, implementation, and evaluation.</li>
+            <li>Members must be on time and present in all required meetings, events, and volunteer duties. Absences must be communicated in advance to the officer in charge.</li>
+            <li>Members must be part of the official group chat or platform to receive updates and instructions, and are expected to respond responsibly.</li>
+            <li>Members may be assigned to committees or specific roles according to their strengths and are expected to contribute wholeheartedly.</li>
+            <li>Serviam members must always uphold respect, integrity, and responsibility, representing the club and school with dignity in all settings.</li>
+            <li>Opportunities for leadership are earned through dedication, values-based service, and formation, not popularity or personal gain.</li>
+            <li>Members must embody the spirit of volunteerism, compassion, and unity, staying true to the mission of the club and the value of Great Harmony (大同).</li>
+          </ol>
+        </div>
+
+        <div>
+          <h3>Programs</h3>
+          <ul class="programs-list">
+            <li>Serviam Encounter</li>
+            <li>Pagdihon Formation Series</li>
+            <li>Project Yuhom</li>
+            <li>Serviam Work Camp</li>
+            <li>Serviam Quest</li>
+            <li>Community Immersion</li>
+            <li>Involvement in various Outreaches</li>
+
+          </ul>
+        </div>
+      </div>
+    </section>
+
+                <!-- BOOK LOVERS -->
+    <section id="booklovers" class="section">
+      <button class="booklovers">← Back</button>
+
+      <div class="booklovers">
+        <h2 class="hero-title">BOOK LOVERS</h2>
+        <p class="lead">The club fosters intellectual growth, social connection, a lifelong love of reading and developing their skills in Arts and Crafts.</p>
+      </div>
+
+      <div class="booklovers-content">
+        <div>
+          <h3>Album</h3>
+          <div class="album-grid">
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+          </div>
+        </div>
+
+        <div>
+          <h3>Rules</h3>
+          <ol class="rules-list">
+            <li>Be Respectful</li>
+            <li>Take Turns</li>
+            <li>Be Kind</li>
+            <li>Handle Books with Care</li>
+            <li>Come Prepared</li>
+            <li>Participate Fully</li>
+            <li>Use Inside Voices</li>
+            <li>Stay on Topic</li>
+            <li>Clean Up</li>
+            <li>Have Fun and Be Creative!</li>
+          </ol>
+        </div>
+
+        <div>
+          <h3>Programs</h3>
+          <ul class="programs-list">
+            <li>Read-Aloud Sessions</li>
+            <li>Book Talks or Show & Tell</li>
+            <li>Silent Reading Time</li>
+            <li>Book-Themed Crafts</li>
+            <li>Story Retelling or Role-Play</li>
+            <li>Puppet Making and Shows</li>
+            <li>Club Bulletin Board</li>
+            <li>Author Spotlights</li>
+            <li>Library Visits or Virtual Storytime</li>
+            <li>Book Swap</li>
+
+          </ul>
+        </div>
+      </div>
+    </section>
+
+               <!-- CHEFS -->
+    <section id="chef" class="section">
+      <button class="chef">← Back</button>
+
+      <div class="chef">
+        <h2 class="hero-title">CHEFS</h2>
+        <p class="lead">The club introduces basic baking techniques and allows students to enjoy hands-on experiences in preparing cookies, cupcakes, and other beginner-friendly sweets.</p>
+      </div>
+
+      <div class="chef-content">
+        <div>
+          <h3>Album</h3>
+          <div class="album-grid">
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+          </div>
+        </div>
+
+        <div>
+          <h3>Rules</h3>
+          <ol class="rules-list">
+            <li>Attend all scheduled meetings and baking sessions unless with a valid excuse.</li>
+            <li>Always observe cleanliness and hygiene in food preparation.</li>
+            <li>Be respectful and cooperative with fellow members and the adviser.</li>
+            <li>Share baking tools and ingredients responsibly.</li>
+            <li>Clean up workstations before leaving the venue.</li>
+            <li>Follow all safety procedures in handling equipment and ingredients.</li>
+            <li>Submit requirements and contributions (if any) on time.</li>
+            <li>Maintain a positive attitude and encourage others to participate.</li>
+          </ol>
+        </div>
+
+        <div>
+          <h3>Programs</h3>
+          <ul class="programs-list">
+            <li>Weekly baking sessions (e.g., cookies, brownies, cupcakes)</li>
+            <li>“Sweet Treats Day” – Mini bake sale showcasing student creations</li>
+            <li>Inter-grade friendly bake-off</li>
+            <li>Guest demos by chefs/teachers or senior high school students</li>
+            <li>Holiday-themed baking (e.g., Halloween cookies, Christmas cupcakes)</li>
+
+          </ul>
+        </div>
+      </div>
+    </section>
+
+                        <!-- Young Designers -->
+    <section id="youngdesigners" class="section">
+      <button class="youngdesigners">← Back</button>
+
+      <div class="youngdesigners">
+        <h2 class="hero-title">YOUNG DESIGNERS</h2>
+        <p class="lead">The Young Designers Club is a creative space for Grades 4 to 12 students who love design, innovation, and hands-on learning.</p>
+      </div>
+
+      <div class="youngdesigners-content">
+        <div>
+          <h3>Album</h3>
+          <div class="album-grid">
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+          </div>
+        </div>
+
+        <div>
+          <h3>Rules</h3>
+          <ol class="rules-list">
+            <li>Members must be committed. Three consecutive absences from group meetings will be grounds for termination of membership.</li>
+            <li>Members and Leads must be responsible for their individual or team projects.</li>
+            <li>Members must follow all BTTHS Rules and Regulations.</li>
+            <li>The Young Designers Club shall be the youth arm of the BTTHS–Design, Research, and Innovation Learning Laboratory as official participants or student leaders in its Project-Based Learning Program. Nonetheless, the Club Members shall not be responsible for other programs or activities offered by the office, such as hosting the Culminating Activities in Elementary Research and organizing Skills Building Programs for the entire school community. This iteration is necessary to avoid overlaps in the roles and responsibilities of all persons involved.</li>
+          </ol>
+        </div>
+
+        <div>
+          <h3>Programs</h3>
+          <ul class="programs-list">
+            <li>Design Sprints and Innovation Challenges</li>
+            <li>Hands-on Maker Projects</li>
+            <li>Passion-Based Mini-Workshops and Skill-building Activities</li>
+            <li>Community Design and Outreach Initiatives</li>
+            <li>Showcases and Exhibitions (e.g., Maker Faire, Design Week)</li>
+
+          </ul>
+        </div>
+      </div>
+    </section>
+
+                        <!-- Dance Synergy -->
+    <section id="dancesynergy" class="section">
+      <button class="dancesynergy">← Back</button>
+
+      <div class="dancesynergy">
+        <h2 class="hero-title">DANCE SYNERGY</h2>
+        <p class="lead">The Dance Synergy Club is for students who love to dance and want to improve their skills. We welcome all kinds of dancers – beginners or experienced. In this club, we practice different dance styles like hip-hop, modern,folk, and cultural dances.</p>
+      </div>
+
+      <div class="dancesynergy-content">
+        <div>
+          <h3>Album</h3>
+          <div class="album-grid">
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+          </div>
+        </div>
+
+        <div>
+          <h3>Rules</h3>
+          <ol class="rules-list">
+            <li>Attend practices.</li>
+            <li>Respect everyone</li>
+            <li>Listen and follow instructions.</li>
+            <li>Do your best in performance.</li>
+            <li>Wear proper attire during practices.</li>
+          </ol>
+        </div>
+
+        <div>
+          <h3>Programs</h3>
+          <ul class="programs-list">
+            <li>Basic Dance Workshops</li>
+            <li>Dance Fitness Sessions</li>
+            <li>Dance Showcases</li>
+
+          </ul>
+        </div>
+      </div>
+    </section>
+
+         <!-- Euereka! -->
+    <section id="eureka" class="section">
+      <button class="eureka">← Back</button>
+
+      <div class="eureka">
+        <h2 class="hero-title">EUREKA!</h2>
+        <p class="lead">Today, the Eureka Science club continues to pursue commitment in their undertakings, focusing on environmental awareness and community service.</p>
+      </div>
+
+      <div class="eureka-content">
+        <div>
+          <h3>Album</h3>
+          <div class="album-grid">
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+          </div>
+        </div>
+
+        <div>
+          <h3>Rules</h3>
+          <ol class="rules-list">
+            <li>Respect for everyone: Treat all club members with respect. Behaviour not adhering to the school’s core values will not be tolerated.</li>
+            <li>Active participation: We encourage every member to actively participate in all club activities.</li>
+            <li>Punctuality and Responsibility: Arrive on time for meetings and events. Take responsibility for your actions to the club. This includes completing the task assigned and being true to your commitment as club members.</li>
+          </ol>
+        </div>
+
+        <div>
+          <h3>Programs</h3>
+          <ul class="programs-list">
+            <li>Mangrove and Tree Planting.</li>
+            <li>Coastal clean-up</li>
+            <li>Medical missions</li>
+            <li>Community Outreach</li>
+            <li>School beautification/Green Spaces</li>
+            <li>Educational trips</li>
+            <li>Symposiums/Seminars</li>
+
+          </ul>
+        </div>
+      </div>
+    </section>
+
+             <!-- History Busters -->
+    <section id="historybusters" class="section">
+      <button class="historybusters">← Back</button>
+
+      <div class="historybusters">
+        <h2 class="hero-title">HISTORY BUSTERS</h2>
+        <p class="lead">The History Busters Club is dedicated to exploring the lives, cultures, and events of people in the past and discovering how their experiences continue to influence the way we live today.</p>
+      </div>
+
+      <div class="historybusters-content">
+        <div>
+          <h3>Album</h3>
+          <div class="album-grid">
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+          </div>
+        </div>
+
+        <div>
+          <h3>Rules</h3>
+          <ol class="rules-list">
+            <li>All members must show respect to fellow members, advisers, and guest speakers at all times—during meetings, activities, and events.</li>
+            <li>Members are expected to attend all scheduled meetings and club activities. If unable to attend, an excuse must be given ahead of time.</li>
+            <li>Maintain the cleanliness and orderliness of the club meeting area and any materials or equipment used during club activities.</li>
+            <li>All school rules and the Student Handbook guidelines apply during any club-related activity.</li>
+            <li>Every member should participate in club discussions, group tasks, and activities with enthusiasm and teamwork.</li>
+          </ol>
+        </div>
+
+        <div>
+          <h3>Programs</h3>
+          <ul class="programs-list">
+            <li>History Poster-Making and Essay Contest</li>
+            <li>History Quest: Scavenger Hunt</li>
+            <li>United Nations Month Participation (October)</li>
+            <li>Culminating Activity: Heritage and Community Walk</li>
+            <li>Year-End History Busters Recognition Day</li>
+
+          </ul>
+        </div>
+      </div>
+    </section>
+
+             <!-- Leminscate -->
+    <section id="leminscate" class="section">
+      <button class="leminscate">← Back</button>
+
+      <div class="leminscate">
+        <h2 class="hero-title">LEMINSCATE</h2>
+        <p class="lead">The club serves as a space where students can develop their critical thinking, logic, and quantitative reasoning skills in fun and meaningful ways.</p>
+      </div>
+
+      <div class="leminscate-content">
+        <div>
+          <h3>Album</h3>
+          <div class="album-grid">
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+          </div>
+        </div>
+
+        <div>
+          <h3>Rules</h3>
+          <ol class="rules-list">
+            <li>Attend all scheduled meetings and participate actively.</li>
+            <li>Show respect to all members, officers, and advisers.</li>
+            <li>Be open to new ideas and contribute positively to group discussions.</li>
+            <li>Complete math challenges and assigned tasks on time.</li>
+            <li>Promote honesty and integrity, especially during contests and activities.</li>
+            <li>Encourage and support fellow members in learning.</li>
+            <li>Represent the club with excellence and sportsmanship during events.</li>
+            <li>Maintain a growth mindset – mistakes are part of learning.</li>
+          </ol>
+        </div>
+
+        <div>
+          <h3>Programs</h3>
+          <ul class="programs-list">
+            <li>Mathletics Challenge.</li>
+            <li>Puzzle and Logic Days</li>
+            <li>Math in Real Life</li>
+            <li>Problem of the Week</li>
+            <li>Pi Day Celebration</li>
+            <li>Math Outreach</li>
+
+          </ul>
+        </div>
+      </div>
+    </section>
+
+             <!-- Tay Tung Photography -->
+    <section id="photography" class="section">
+      <button class="photography">← Back</button>
+
+      <div class="photography">
+        <h2 class="hero-title">TAY TUNG PHOTOGRAPHY</h2>
+        <p class="lead">A school-based photography club fostering skill development, creativity, and collaboration among different clubs for documentation.</p>
+      </div>
+
+      <div class="photography-content">
+        <div>
+          <h3>Album</h3>
+          <div class="album-grid">
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+          </div>
+        </div>
+
+        <div>
+          <h3>Rules</h3>
+          <ol class="rules-list">
+            <li>Attend all scheduled meetings and participate actively.</li>
+            <li>Show respect to all members, officers, and advisers.</li>
+            <li>Be open to new ideas and contribute positively to group discussions.</li>
+            <li>Complete math challenges and assigned tasks on time.</li>
+            <li>Promote honesty and integrity, especially during contests and activities.</li>
+            <li>Encourage and support fellow members in learning.</li>
+            <li>Represent the club with excellence and sportsmanship during events.</li>
+            <li>Maintain a growth mindset – mistakes are part of learning.</li>
+          </ol>
+        </div>
+
+        <div>
+          <h3>Programs</h3>
+          <ul class="programs-list">
+            <li>School-Wide Documentation</li>
+            <li>Photography Training and Workshop</li>
+
+          </ul>
+        </div>
+      </div>
+    </section>
+
+                 <!-- Tay Tung Voices -->
+    <section id="taytungvoices" class="section">
+      <button class="taytungvoices">← Back</button>
+
+      <div class="taytungvoices">
+        <h2 class="hero-title">TAY TUNG VOICES</h2>
+        <p class="lead">Today, Tay Tung Voices remains committed to nurturing young talent and performing at both school and community events. </p>    
+      </div>
+
+      <div class="taytungvoices-content">
+        <div>
+          <h3>Album</h3>
+          <div class="album-grid">
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+          </div>
+        </div>
+
+        <div>
+          <h3>Rules</h3>
+          <ol class="rules-list">
+            <li>Choristers are expected to attend training regularly, to stay committed to the club. Should there be foreseen absences, inform the moderators ahead of time. Attendance is regularly checked.</li>
+            <li>Call time during performances are to be respected. </li>
+            <li>Should anyone want to quit, inform the moderators and do not just opt to leave the group.</li>
+            <li>Choristers are disciplined students and should abide by the rules and regulations stipulated by the moderators.</li>
+          </ol>
+        </div>
+
+        <div>
+          <h3>Programs</h3>
+          <ul class="programs-list">
+            <li>Vocal training of choristers</li>
+            <li>Support school events, within and outside school.</li> 
+            <li>Provide musical talents for the theater production.</li>
+            <li>Join competitions, if any.</li>
+
+          </ul>
+        </div>
+      </div>
+    </section>
+
+             <!-- Panorama -->
+    <section id="panorama" class="section">
+      <button class="panorama">← Back</button>
+
+      <div class="panorama">
+        <h2 class="hero-title">PANORAMA</h2>
+        <p class="lead"> it serves as a platform for student journalists to uphold the truth at every turn, empower communities, and form lifelong skills and attitudes.</p>
+      </div>
+
+      <div class="panorama-content">
+        <div>
+          <h3>Album</h3>
+          <div class="album-grid">
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+          </div>
+        </div>
+
+        <div>
+          <h3>Rules</h3>
+          <ol class="rules-list">
+            <li>N/A</li>
+         </ol>
+        </div>
+
+        <div>
+          <h3>Programs</h3>
+          <ul class="programs-list">
+            <li>Monthly Trainings: On certain Saturdays, members will be trained on a specific journalistic skill. From writing to editing, we aim to train well-rounded campus journalists.</li>
+            <li>Weekly Broadcasts: Fridays are reserved for broadcasts at the TTCB, where the latest news and other journalistic outputs are showcased.</li>
+            <li>Issuances: The compilation of months’ worth of events, the Panorama reports on a variety of topics every half of the school year, to be published in a carefully designed magazine. </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+                 <!-- YES -->
+    <section id="yes" class="section">
+      <button class="yes">← Back</button>
+
+      <div class="yes">
+        <h2 class="hero-title">YES</h2>
+        <p class="lead"> YES serves both elementary and JHS levels by helping students explore real-world business scenarios through age-appropriate activities, promoting leadership, collaboration, and innovation.</p>
+      </div>
+
+      <div class="yes-content">
+        <div>
+          <h3>Album</h3>
+          <div class="album-grid">
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+            <div class="album-box"></div>
+          </div>
+        </div>
+
+        <div>
+          <h3>Rules</h3>
+          <ol class="rules-list">
+            <li>Attendance – Members must attend all scheduled meetings, rehearsals, and performances unless excused.</li>
+            <li>Punctuality – Arrive on time for all guild activities to ensure smooth operations.  </li>
+            <li>Respect – Treat all members, mentors, and guests with courtesy and professionalism.</li>
+            <li>Commitment – Fulfill assigned roles and responsibilities throughout each production.</li>
+            <li>Teamwork – Collaborate and communicate effectively with fellow members.</li>
+            <li>Property Care – Handle props, costumes, and equipment responsibly and report any damage.</li>
+         </ol>
+        </div>
+
+        <div>
+          <h3>Programs</h3>
+          <ul class="programs-list">
+            <li>Mini Bazaar – Students plan, design, and sell products during school fairs.</li>
+            <li>Product-Making Workshops – Sessions on making crafts, food items, and other products.</li>
+            <li>Money Matters – Fun and age-appropriate lessons on saving, budgeting, and spending.</li>
+            <li>“My Business Idea” Pitch Day – Students present their creative business ideas to the group.</li>
+            <li>Financial Literacy Workshops</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- FAQS -->
+    <section id="faqs" class="section">
+      <main class="faq-page">
+        <section class="faq-section">
+          <h1>Frequently Asked Questions</h1>
+
+          <div class="faq-item">
+            <button class="question">How do I join a club?</button>
+            <div class="answer">
+              <p>You can approach the club adviser or check the school sign-up form.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="question active">Am I required to join a club?</button>
+            <div class="answer open">
+              <p>
+                <strong>Yes.</strong> All students are required to join one (1) club,
+                except student athletes and appointed officers.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="question">How do I find my club adviser?</button>
+            <div class="answer">
+              <p>Ask your classroom adviser or the student affairs office.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="question">How many clubs can I join?</button>
+            <div class="answer">
+              <p>Students may only join one (1) club unless permitted.</p>
+            </div>
+          </div>
+        </section>
+
+        <aside class="contact">
+          <p class="hint">Can't find what you're looking for?</p>
+          <p><strong>Contact us.</strong></p>
+          <p class="email">club.archive@gmail.com</p>
+        </aside>
+      </main>
+    </section>
+
+    <!-- GMAIL -->
+    <div class="gmail-tooltip">
+      <img src="images/gmail.png" alt="Gmail Icon">
+    </div>
+
+  </div>
+
+  <!-- SCRIPT -->
+  <script src="Functions.js"></script>
+</body>
+</html>
+
+
